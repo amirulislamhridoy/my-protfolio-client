@@ -22,7 +22,6 @@ const About = () => {
           <div>Phone: 01518325108 / 01634440690</div>
           <div>Email: amirulislamhriody@gmail.com</div>
           <address>Address: Gazipur District, Dhaka, Bangladesh</address>
-          <button className='btn btn-warning'>Contact Me</button>
         </div>
       </div>
     </section>
