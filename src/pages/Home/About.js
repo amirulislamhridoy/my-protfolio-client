@@ -3,8 +3,8 @@ import img from "../../images/about.jpg";
 
 const About = () => {
   return (
-    <section>
-      <h1 className="text-center text-3xl font-bold mb-4">About Me</h1>
+    <section className='mt-16'>
+      <h1 className="text-center text-3xl font-bold mb-4">ABOUT ME</h1>
 
       <div class="card card-side bg-base-100 shadow-xl">
         <figure className="max-w-2xl">
