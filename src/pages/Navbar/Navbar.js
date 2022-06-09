@@ -9,10 +9,13 @@ const Navbar = ({darkMode, setDarkMode }) => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="#my-projects">MY PROJECTS</a>
+        <a href="#my-projects">My Projects</a>
       </li>
       <li>
-        <Link to="">Item 1</Link>
+        <a href="#about-me">About Me</a>
+      </li>
+      <li>
+        <a href="#contact-me">Contact Me</a>
       </li>
       
     </>

@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
 import contactImg from "../../images/handShake.jpg";
 import emailjs from "@emailjs/browser";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faFacebook } from '@fortawesome/free-solid-svg-icons'
-// import { faTwitter } from '@fortawesome/free-solid-svg-icons'
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const ContactMe = () => {
     const form = useRef();
@@ -22,23 +21,26 @@ const ContactMe = () => {
         (result) => {
           console.log(result.text);
           e.target.reset()
+          toast.success("Your email is success.")
         },
         (error) => {
           console.log(error.text);
+          toast.error("Your email is faild.")
         }
       );
   };
   return (
-    <section className="mt-16">
-      <h1 className="text-3xl text-center font-bold my-6">CONTACT ME</h1>
-      <div className='flex items-center'>
+    <section className="mt-20" id='contact-me'>
+      <h1 className="text-3xl text-center font-bold text-[#ff4321]">CONTACT ME</h1>
+
+      <div className='lg:flex items-center'>
         <div className='flex1'>
-          <img className='w-10/12 rounded-xl shadow-xl' src={contactImg} alt="" />
+          <img className='w-10/12 rounded-xl shadow-xl mx-auto mt-10 lg:mt-0' src={contactImg} alt="" />
         </div>
 
         <div className='flex1'>
-          <form className="text-gray-700 body-font relative" ref={form} onSubmit={sendEmail}>
-            <div className="container py-24 mx-auto">
+          <form className="body-font relative" ref={form} onSubmit={sendEmail}>
+            <div className="container px-8 lg:px-0 py-10 lg:py-24 mx-auto">
               <div className="flex flex-col text-center w-full mb-7">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
                   You can send an email.
@@ -50,7 +52,7 @@ const ContactMe = () => {
                     <div className="relative">
                       <label
                         for="name"
-                        className="leading-7 text-sm text-gray-600"
+                        className="leading-7 text-sm "
                       >
                         Name
                       </label>
@@ -67,7 +69,7 @@ const ContactMe = () => {
                     <div className="relative">
                       <label
                         for="email"
-                        className="leading-7 text-sm text-gray-600"
+                        className="leading-7 text-sm"
                       >
                         Email
                       </label>
@@ -84,7 +86,7 @@ const ContactMe = () => {
                     <div className="relative">
                       <label
                         for="message"
-                        className="leading-7 text-sm text-gray-600"
+                        className="leading-7 text-sm"
                       >
                         Message
                       </label>
@@ -99,11 +101,10 @@ const ContactMe = () => {
                   <div className="mx-auto mt-3">
                     <input
                       className="cursor-pointer rounded border  h-10 w-24 outline-none btn btn-warning"
-                      type="submit"
+                      type="submit" value='SEND'
                     />
                   </div>
                   <div>
-                  {/* <FontAwesomeIcon icon={faFacebook} /> */}
                   </div>
                 </div>
               </div>
@@ -111,6 +112,7 @@ const ContactMe = () => {
           </form>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 };
