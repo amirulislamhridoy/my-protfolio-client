@@ -19,9 +19,9 @@ const About = () => {
             stylish, modern website. Now I am a Junior Web Developer and try
             everyday to know more.
           </h2>
-          <div>Phone: 01518325108 / 01634440690</div>
+          {/* <div>Phone: 01518325108 / 01634440690</div>
           <div>Email: amirulislamhriody@gmail.com</div>
-          <address>Address: Gazipur District, Dhaka, Bangladesh</address>
+          <address>Address: Gazipur District, Dhaka, Bangladesh</address> */}
         </div>
       </div>
     </section>
