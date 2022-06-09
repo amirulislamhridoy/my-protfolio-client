@@ -33,9 +33,9 @@ const Projects = () => {
     },
   ];
   return (
-    <section className="mt-20 mb-8">
-      <h1 className="text-center text-3xl font-bold mb-8">MY PROJECTS</h1>
-      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
+    <section className="mt-20 lg:mt-0 mb-8" id='my-projects'>
+      <h1 className="text-center text-3xl font-bold mb-8 text-[#ff4321]">MY PROJECTS</h1>
+      <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 mx-5 lg:mx-0'>
         {projects.map((project) => (
           <SingleProject project={project}></SingleProject>
         ))}

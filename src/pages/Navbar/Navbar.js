@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = ({darkMode, setDarkMode }) => {
+  
   const menu = (
     <>
       <li>
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="">Item 1</Link>
+        <a href="#my-projects">MY PROJECTS</a>
       </li>
       <li>
         <Link to="">Item 1</Link>

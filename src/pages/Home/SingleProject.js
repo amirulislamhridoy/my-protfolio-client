@@ -3,7 +3,7 @@ import React from "react";
 const SingleProject = ({project}) => {
     const {name, img, live, client, server}  = project
   return (
-    <div class="card w-96 bg-base-100 shadow-xl mx-auto">
+    <div class="card bg-base-100 shadow-xl mx-auto">
       <figure>
         <img
           src={img}

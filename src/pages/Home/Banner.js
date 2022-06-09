@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <section className="group lg:flex items-center h-screen">
 
-      <div className="flex-1 lg:flex flex-col justify-center h-full">
+      <div className="flex-1 lg:flex flex-col justify-center h-full mx-5 lg:mx-0">
         <h1 className="text-5xl font-bold">Amirul Islam Hridoy</h1>
         <h2 className="text-[#ff4321] text-4xl font-semibold my-3">Web Developer</h2>
         <p className="font-medium text-lg mb-3">

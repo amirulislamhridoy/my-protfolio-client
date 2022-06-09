@@ -3,13 +3,14 @@ import img from "../../images/about.jpg";
 
 const About = () => {
   return (
-    <section className='mt-16'>
-      <h1 className="text-center text-3xl font-bold mb-4">ABOUT ME</h1>
+    <section className='mt-16' id='about-me'>
+      <h1 className="text-center text-3xl font-bold mb-4 text-[#ff4321]">ABOUT ME</h1>
 
-      <div class="card card-side bg-base-100 shadow-xl">
-        <figure className="max-w-2xl">
+      <div class="card card-side bg-base-100 shadow flex-col md:flex-row">
+        <figure className="max-w-2xl mx-5 md:mx-0">
           <img src={img} className='rounded-3xl' alt="Movie" />
         </figure>
+
         <div class="card-body justify-center">
           <h2 class="card-title">Hi I'm Amirul Islam Hridoy</h2>
           <h2 className='my-2'>
@@ -21,6 +22,7 @@ const About = () => {
           <div>Phone: 01518325108 / 01634440690</div>
           <div>Email: amirulislamhriody@gmail.com</div>
           <address>Address: Gazipur District, Dhaka, Bangladesh</address>
+          <button className='btn btn-warning'>Contact Me</button>
         </div>
       </div>
     </section>
