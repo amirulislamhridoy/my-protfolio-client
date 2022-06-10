@@ -19,9 +19,9 @@ const About = () => {
             stylish, modern website. Now I am a Junior Web Developer and try
             everyday to know more. My dream is will be a senior web developer and programmer.
           </h2>
-          {/* <div>Phone: 01518325108 / 01634440690</div>
-          <div>Email: amirulislamhriody@gmail.com</div>
-          <address>Address: Gazipur District, Dhaka, Bangladesh</address> */}
+          <div><i class="fa-solid fa-phone text-lg mr-3"></i> Phone: 01518325108 / 01634440690</div>
+          <div><i class="fa-solid fa-envelope text-lg mr-3"></i> Email: amirulislamhriody@gmail.com</div>
+          <address><i class="fa-solid fa-house text-lg mr-3"></i> Address: Gazipur District, Dhaka, Bangladesh</address>
         </div>
       </div>
     </section>

@@ -34,8 +34,9 @@ const ContactMe = () => {
       <h1 className="text-2xl md:text-3xl text-center font-bold text-[#ff4321]"><span className='hover:border-b-4 duration-300 border-[#ff4321]'>CONTACT ME</span></h1>
 
       <div className='lg:flex items-center'>
+
         <div className='flex1' data-aos="flip-left">
-          <img className='w-10/12 rounded-xl shadow-xl mx-auto mt-10 lg:mt-0' src={contactImg} alt="" />
+          <img className='w-10/12 rounded-xl shadow-xl mx-auto lg:mx-0 mt-10 lg:mt-0' src={contactImg} alt="" />
         </div>
 
         <div className='flex1' data-aos="flip-right">

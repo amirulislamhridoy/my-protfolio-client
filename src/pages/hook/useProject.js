@@ -22,8 +22,8 @@ const useProject = () => {
             server:
               "https://github.com/amirulislamhridoy/Assignment-11-bikes-warehouse-server.git",
             description: [
-                "A responsive website. Allowing Customers to Create an Account.", "Customer Authentication and Authorization", "Order Products, Buy Products, Delete Product, Private Route."
-            ],
+                "A responsive website. Allowing Customers to Create an Account.", "Customer Authentication and Authorization", "Order Products, Buy Products, Delete Product, Private Route.", "Product add, Product Delete, ", "Loading Icon, About, Footer"
+          ],
             usedTechnology: 'React, React Router, Bootstrap, Axios, Firebase,  React-Hook-From, React-Toastify, MongoDB Atlas,  JSON Web Token(JWT / Jot)'
         },
         {
@@ -38,7 +38,7 @@ const useProject = () => {
             description: [
                 "This is a responsive website. The Doctor gives some service to a patient.",
                 "The patients can create an account. If the patient doesn’t log in, he could not see treatment details.",
-                "Private Router, Dynamic Id, 404 page"
+                "Private Router, Dynamic Id, 404 page", "About Page and My info"
             ],
             usedTechnology: "React, React Router, Firebase, Firebase Hooks, React Icons, React Toastify."
         },

@@ -44,7 +44,7 @@ const Banner = () => {
           backgroundSize: "contain",
         }}
       >
-        <img className="rounded-full mx-auto group-hover:rotate-[360deg] duration-1000 ease-in" src={imgMain} alt="" />
+        <img className="rounded-full scale-90 mx-auto group-hover:scale-100 duration-700 ease-in" src={imgMain} alt="" />
       </div>
     </section>
   );
