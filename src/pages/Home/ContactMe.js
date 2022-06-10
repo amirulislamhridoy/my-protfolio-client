@@ -42,7 +42,7 @@ const ContactMe = () => {
           <form className="body-font relative" ref={form} onSubmit={sendEmail}>
             <div className="container px-8 lg:px-0 py-10 lg:py-24 mx-auto">
               <div className="flex flex-col text-center w-full mb-7">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+                <h1 className="sm:text-3xl text-2xl font-medium title-font">
                   You can send an email.
                 </h1>
               </div>

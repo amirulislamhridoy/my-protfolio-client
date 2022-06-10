@@ -10,7 +10,7 @@ import Navbar from "./pages/Navbar/Navbar";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   return (
-    <div data-theme={`${darkMode && "night"}`}>
+    <div data-theme={`${darkMode && "light"}`}>
       <div className='max-w-7xl mx-auto'>
         <Navbar darkMode={darkMode} setDarkMode={setDarkMode}></Navbar>
 
