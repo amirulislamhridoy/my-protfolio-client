@@ -1,22 +1,30 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import * as Scroll from 'react-scroll';
+import { Link as LinkScroll, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 const Navbar = ({darkMode, setDarkMode }) => {
+  const location = useLocation()
   
   const menu = (
     <>
-      <li>
-        <Link to="/">Home</Link>
-      </li>
-      <li>
-        <a href="#my-projects">My Projects</a>
-      </li>
-      <li>
-        <a href="#about-me">About Me</a>
-      </li>
-      <li>
-        <a href="#contact-me">Contact Me</a>
-      </li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/blog">Blog</Link></li>
+      {location?.pathname === '/' &&<li>
+        <LinkScroll activeClass="active" to="my-projects" spy={true} smooth={true} offset={50} duration={500}>
+        My Projects
+        </LinkScroll>
+      </li>}
+      {location.pathname === '/' && <li>
+        <LinkScroll activeClass="active" to="about-me" spy={true} smooth={true} offset={50} duration={700}>
+        About Me
+        </LinkScroll>
+      </li>}
+      {location.pathname === '/' && <li>
+        <LinkScroll activeClass="active" to="contact-me" spy={true} smooth={true} offset={50} duration={900}>
+        Contact Me
+        </LinkScroll>
+      </li>}
       
     </>
   );

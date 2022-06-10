@@ -31,14 +31,14 @@ const ContactMe = () => {
   };
   return (
     <section className="mt-20" id='contact-me'>
-      <h1 className="text-3xl text-center font-bold text-[#ff4321]">CONTACT ME</h1>
+      <h1 className="text-2xl md:text-3xl text-center font-bold text-[#ff4321]"><span className='hover:border-b-4 duration-300 border-[#ff4321]'>CONTACT ME</span></h1>
 
       <div className='lg:flex items-center'>
-        <div className='flex1'>
+        <div className='flex1' data-aos="flip-left">
           <img className='w-10/12 rounded-xl shadow-xl mx-auto mt-10 lg:mt-0' src={contactImg} alt="" />
         </div>
 
-        <div className='flex1'>
+        <div className='flex1' data-aos="flip-right">
           <form className="body-font relative" ref={form} onSubmit={sendEmail}>
             <div className="container px-8 lg:px-0 py-10 lg:py-24 mx-auto">
               <div className="flex flex-col text-center w-full mb-7">
@@ -48,7 +48,7 @@ const ContactMe = () => {
               </div>
               <div className="">
                 <div className="flex flex-wrap ">
-                  <div className="p-2 w-1/2">
+                  <div className="p-2 w-full md:w-1/2">
                     <div className="relative">
                       <label
                         for="name"
@@ -65,7 +65,7 @@ const ContactMe = () => {
                       />
                     </div>
                   </div>
-                  <div className="p-2 w-1/2">
+                  <div className="p-2 w-full md:w-1/2">
                     <div className="relative">
                       <label
                         for="email"

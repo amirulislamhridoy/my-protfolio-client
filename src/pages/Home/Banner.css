@@ -1,0 +1,37 @@
+.my-animation::after{
+    content: '';
+    animation-name: bannerTyping;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-fill-mode: initial;
+}
+@keyframes bannerTyping{
+  0%{content: '|'}
+  6%{content: 'e|'}
+  12%{content: 'eb|'}
+  18%{content: 'eb D|'}
+  24%{content: 'eb De|'}
+  30%{content: 'eb Dev|'}
+  36%{content: 'eb Deve|'}
+  42%{content: 'eb Devel|'}
+  48%{content: 'eb Develo|'}
+  54%{content: 'eb Develo|'}
+  60%{content: 'eb Develop|'}
+  76%{content: 'eb Develope|'}
+  72%{content: 'eb Developer|'}
+  
+
+  88%{content: 'eb Develope|'}
+  89%{content: 'eb Develop|'}
+  90%{content: 'eb Develo|'}
+  91%{content: 'eb Devel|'}
+  92%{content: 'eb Deve|'}
+  93%{content: 'eb Dev|'}
+  94%{content: 'eb De|'}
+  95%{content: 'eb D|'}
+  96%{content: 'eb|'}
+  97%{content: 'e|'}
+  100%{content: '|'}
+}
