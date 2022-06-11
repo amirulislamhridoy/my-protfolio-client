@@ -36,7 +36,7 @@ const Navbar = ({darkMode, setDarkMode }) => {
   return (
     <div class="navbar bg-base-100">
       <div class="navbar-start">
-        <Link to='/' class="btn btn-ghost normal-case text-xl">Protfolio</Link>
+        <Link to='/' class="btn btn-ghost normal-case text-xl">Portfolio</Link>
       </div>
 
       <div class="navbar-end hidden lg:flex">
