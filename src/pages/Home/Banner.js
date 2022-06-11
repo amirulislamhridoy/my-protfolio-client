@@ -26,13 +26,9 @@ const Banner = () => {
           experiences. Because I want to learn more. If I know more, I will do
           better.
         </p>
-        {/* <button
-          onClick={() => navigate("/resume")}
-          class="btn btn-outline btn-warning w-24 hover:scale-125"
-        >
-          Resume
-        </button> */}
-        <a href="https://drive.google.com/file/d/1zz3o6mI9fX5rQ2HO57yWEWL8W8oMJNu_/view?usp=sharing" className='btn btn-primary btn-outline w-52' download target="_blank">Download Resume</a>
+        {/* <a href="https://drive.google.com/file/d/1zz3o6mI9fX5rQ2HO57yWEWL8W8oMJNu_/view?usp=sharing" className='btn btn-primary btn-outline w-52' download target="_blank">Download Resume</a> */}
+
+        <a href='https://drive.google.com/uc?export=download&id=1zz3o6mI9fX5rQ2HO57yWEWL8W8oMJNu_' className='btn btn-primary btn-outline w-52' download>Download Resume</a>
       </div>
       
       <div
