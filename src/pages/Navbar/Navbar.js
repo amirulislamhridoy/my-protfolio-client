@@ -15,6 +15,11 @@ const Navbar = ({darkMode, setDarkMode }) => {
         My Projects
         </LinkScroll>
       </li>}
+      {location?.pathname === '/' &&<li>
+        <LinkScroll activeClass="active" to="skill" spy={true} smooth={true} offset={50} duration={500}>
+        Skill
+        </LinkScroll>
+      </li>}
       {location.pathname === '/' && <li>
         <LinkScroll activeClass="active" to="about-me" spy={true} smooth={true} offset={50} duration={700}>
         About Me
