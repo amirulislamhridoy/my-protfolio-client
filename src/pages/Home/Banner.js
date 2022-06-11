@@ -18,7 +18,7 @@ const Banner = () => {
       >
         <h1 className="text-3xl md:text-5xl font-bold">Amirul Islam Hridoy</h1>
         <h2 className="text-[#ff4321] text-2xl md:text-4xl font-semibold my-3 my-animation">
-          W
+          J
         </h2>
 
         <p className="font-medium text-lg mb-3">
