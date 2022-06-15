@@ -60,7 +60,7 @@ const Details = () => {
         {/* {usedTechnology} */}
         <div>
           {technology.map((tec) => (
-            <button className="btn">{tec}</button>
+            <button className="btn sm:btn btn-sm">{tec}</button>
           ))}
         </div>
       </p>
