@@ -26,7 +26,7 @@ const Banner = () => {
           experiences. Because I want to learn more. If I know more, I will do
           better.
         </p>
-        {/* <a href="https://drive.google.com/file/d/1HY1a70SsJDSHRpmDaSmRZwTOcziNTLiE/view?usp=sharing" className='btn btn-primary btn-outline w-52' download target="_blank">Download Resume</a> */}
+        {/* <a href="https://drive.google.com/file/d/1_iCOFZqQSWmW-YzXF4S0RY7mq4tQ7nbF/view?usp=sharing" className='btn btn-primary btn-outline w-52' download target="_blank">Download Resume</a> */}
 
         <a href='https://drive.google.com/uc?export=download&id=1_iCOFZqQSWmW-YzXF4S0RY7mq4tQ7nbF' className='btn btn-primary btn-outline w-52' download>Download Resume</a>
       </div>
