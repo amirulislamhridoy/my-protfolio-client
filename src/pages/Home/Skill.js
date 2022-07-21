@@ -15,7 +15,7 @@ const Skill = () => {
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Tailwind css</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">DaisyUI</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">JavaScript</button>
-                <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">React API</button>
+                <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Rest API</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">React Router</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Firebase</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Firebase Hooks</button>
