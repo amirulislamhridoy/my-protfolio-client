@@ -63,28 +63,27 @@ const useProject = () => {
         "A responsive website. Allowing Customers to Create an Account.", "Website has Authentication and Authorization system", "Customer can Order , Buy , Delete.", "Admin can add product and delete product etc ", "Customer can understand easily by loading and toast."
       ],
       usedTechnology: 'React, React Router, Bootstrap, Axios, Firebase,  React-Hook-From, React-Toastify, MongoDB Atlas,  JSON Web Token(JWT / Jot)'
-    },
-    {
-      _id: "4",
-      name: "Dr. Luke Slater ",
-      img1: project31,
-      img2: project32,
-      img3: project33,
-      live: "https://dr-luke-slater.netlify.app/",
-      client:
-        "https://github.com/amirulislamhridoy/Dr.-Luke-Slater.git",
-      description: [
-        "This is a responsive website. Doctor gives some service for patients.",
-        "Authentication is important for taking service every customer. Because it has protected route and authentication system."," If the patient doesn’t valid user, he could not see treatment details.","This project has private and dynamic route etc"
-      ],
-      usedTechnology: "React, React Router, Firebase, Firebase Hooks, React Icons, React Toastify."
     }
   ]
   return projects
 }
 export default useProject
 
-
+    // {
+    //   _id: "4",
+    //   name: "Dr. Luke Slater ",
+    //   img1: project31,
+    //   img2: project32,
+    //   img3: project33,
+    //   live: "https://dr-luke-slater.netlify.app/",
+    //   client:
+    //     "https://github.com/amirulislamhridoy/Dr.-Luke-Slater.git",
+    //   description: [
+    //     "This is a responsive website. Doctor gives some service for patients.",
+    //     "Authentication is important for taking service every customer. Because it has protected route and authentication system."," If the patient doesn’t valid user, he could not see treatment details.","This project has private and dynamic route etc"
+    //   ],
+    //   usedTechnology: "React, React Router, Firebase, Firebase Hooks, React Icons, React Toastify."
+    // }
 // {
 //   _id: "4",
 //   name: "Lucky-One",
