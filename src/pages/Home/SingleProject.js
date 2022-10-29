@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const SingleProject = ({project}) => {
+  console.log(project)
   const navigate = useNavigate()
     const {name, img1, live, client, server}  = project
   return (

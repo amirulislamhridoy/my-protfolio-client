@@ -17,6 +17,7 @@ const Skill = () => {
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">JavaScript</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Rest API</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">React</button>
+                <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Redux</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">React Router</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Firebase</button>
                 <button className='btn sm:btn btn-sm mx-1' data-aos="zoom-in">Firebase Hooks</button>
