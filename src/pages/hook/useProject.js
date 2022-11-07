@@ -44,7 +44,7 @@ const useProject = () => {
       server:
         "https://github.com/amirulislamhridoy/Royal-Manufacturer-Server.git",
       description: [
-        "This is a manufacturer factory website. Any customer can buy from this website for his business or use.", "It has authentication and authorization system. If customer buy from this website he will be used valid quantity.", "Customer can order for buy and then delete or payment.", "Customer order and payment transaction id will be store and show in UI."
+        "This is a manufacturer factory website. Any customer can buy from this website for his business or use.", "It has authentication and authorization system. It has toast system for user experience.", "Customers can order to buy and then delete or payment.", "Customer order data and payment transaction id will be stored and shown in UI."
       ],
       usedTechnology: 'React, Firebase, React-Helmet, React-Hook,Form, React-slick, React-animation'
     },
@@ -60,7 +60,7 @@ const useProject = () => {
       server:
         "https://github.com/amirulislamhridoy/Bikes-Warehouse-Server.git",
       description: [
-        "This is online bike sell web application.", "It has an Authentication and Authorization. Authentication systems are email-password, Google and Github login.", "Bike stored on MongoDB using node.js."
+        "This is an online bike sale web application.", "It has authentication and authorization system.  Authentication systems are email-password, Google, and GitHub login.", "Data stored on MongoDB using node.js"
       ],
       usedTechnology: 'React, React Router, Bootstrap, Axios, Firebase,  React-Hook-From, React-Toastify, MongoDB Atlas,  JSON Web Token(JWT / Jot)'
     }
