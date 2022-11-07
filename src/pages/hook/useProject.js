@@ -28,9 +28,9 @@ const useProject = () => {
       server:
         "https://github.com/rezainiet/lfzero-server.git",
       description: [
-        "Learn from Zero is an online educational platform web application.", "Two types of user in this site such as student & instructor. Students can communicate with their enrolled courses instructor via chat.", "Some features for students, some features for instructors and super admin all access.", "Instructor can add his course."
+        "Learn from Zero is an online educational platform web application.", "Two types of user in this site such as student & instructor. Students can communicate with their enrolled courses instructor via chat.", "Some features for students, some features for instructors and super admin all access."
       ],
-      usedTechnology: 'React, React Router, Bootstrap, Axios, Firebase,  React-Hook-From, React-Toastify, MongoDB Atlas,  JSON Web Token(JWT / Jot)'
+      usedTechnology: 'React, Firebase, Socket.io, used MVC pattern architecture, Node.js, MongoDB, Mongoose, React-Toastify'
     },
     {
       _id: "2",
@@ -44,7 +44,7 @@ const useProject = () => {
       server:
         "https://github.com/amirulislamhridoy/Royal-Manufacturer-Server.git",
       description: [
-        "Customer can buy tools from Royal Manufacturer.", "It has an Authentication and Authorization for customer.", "The customer can write feedback in review section.", "Admin can add tools and delete tools etc.", "It has email verification system for email password login user."
+        "This is a manufacturer factory website. Any customer can buy from this website for his business or use.", "It has authentication and authorization system. If customer buy from this website he will be used valid quantity.", "Customer can order for buy and then delete or payment.", "Customer order and payment transaction id will be store and show in UI."
       ],
       usedTechnology: 'React, Firebase, React-Helmet, React-Hook,Form, React-slick, React-animation'
     },
@@ -60,7 +60,7 @@ const useProject = () => {
       server:
         "https://github.com/amirulislamhridoy/Bikes-Warehouse-Server.git",
       description: [
-        "A responsive website. Allowing Customers to Create an Account.", "Website has Authentication and Authorization system", "Customer can Order , Buy , Delete.", "Admin can add product and delete product etc ", "Customer can understand easily by loading and toast."
+        "This is online bike sell web application.", "It has an Authentication and Authorization. Authentication systems are email-password, Google and Github login.", "Bike stored on MongoDB using node.js."
       ],
       usedTechnology: 'React, React Router, Bootstrap, Axios, Firebase,  React-Hook-From, React-Toastify, MongoDB Atlas,  JSON Web Token(JWT / Jot)'
     }
