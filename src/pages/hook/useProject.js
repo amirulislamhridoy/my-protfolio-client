@@ -13,6 +13,9 @@ import project43 from '../../images/project4/project43.png'
 import project51 from '../../images/project5/project5.png'
 import project52 from '../../images/project5/project52.png'
 import project53 from '../../images/project5/project53.png'
+import project61 from '../../images/project6/project6.png'
+import project62 from '../../images/project6/project62.png'
+import project63 from '../../images/project6/project63.png'
 
 const useProject = () => {
   const projects = [
@@ -50,20 +53,20 @@ const useProject = () => {
     },
     {
       _id: "3",
-      name: "Bike Warehouse",
-      img1: project21,
-      img2: project22,
-      img3: project23,
-      live: "https://bike-warehouse-hridoy.netlify.app/",
+      name: "Medical Clinic",
+      img1: project61,
+      img2: project62,
+      img3: project63,
+      live: "https://medical-clinic-hridoy.netlify.app/",
       client:
-        "https://github.com/amirulislamhridoy/Bikes-Warehouse-Client.git",
+        "https://github.com/amirulislamhridoy/Medical-Clinic-Client.git",
       server:
-        "https://github.com/amirulislamhridoy/Bikes-Warehouse-Server.git",
+        "https://github.com/amirulislamhridoy/Medical_Clinic_Server.git",
       description: [
-        "This is an online bike sale web application.", "It has authentication and authorization system.  Authentication systems are email-password, Google, and GitHub login.", "Data stored on MongoDB using node.js"
+        "Medical Clinic in clinic website.", "It has clinic doctors, services, appointment system. Patients can know easily about doctors and clinic.", "It has authentication system for appointment system management."
       ],
-      usedTechnology: 'React, React Router, Bootstrap, Axios, Firebase,  React-Hook-From, React-Toastify, MongoDB Atlas,  JSON Web Token(JWT / Jot)'
-    }
+      usedTechnology: 'React, Redux, SASS, React Day Picker, Firebase, swiper, Node.js, Express.js, MongoDB'
+    },
   ]
   return projects
 }
