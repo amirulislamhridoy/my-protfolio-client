@@ -20,7 +20,7 @@ const About = () => {
             everyday to know more. My dream is will be a senior web developer and programmer.
           </h2>
           <div><i class="fa-solid fa-phone text-lg mr-3"></i> Phone: 01518325108 / 01634440690</div>
-          <div><i class="fa-solid fa-envelope text-lg mr-3"></i> Email: amirulislamhriody@gmail.com</div>
+          <div><i class="fa-solid fa-envelope text-lg mr-3"></i> Email: amirulislamhridoy30687@gmail.com</div>
           <address><i class="fa-solid fa-house text-lg mr-3"></i> Address: Gazipur District, Dhaka, Bangladesh</address>
         </div>
       </div>
