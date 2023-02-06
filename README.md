@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# My crating short list
+### Next js projects
+[Autodirve project live site](https://autodrive-client.vercel.app/) or [https://autodrive-client.vercel.app/](https://autodrive-client.vercel.app/)
+[Client side code link](https://github.com/amirulislamhridoy/autodrive-client.git) or [https://github.com/amirulislamhridoy/autodrive-client.git](https://github.com/amirulislamhridoy/autodrive-client.git)
+[Server side code Link](https://github.com/amirulislamhridoy/autodrive-server.git) or [https://github.com/amirulislamhridoy/autodrive-server.git](https://github.com/amirulislamhridoy/autodrive-server.git)
+**Some Technology Use:** *Next Js, Firebase, Firebase Hooks, React Query, Redux, React Redux, Redux Toolkit, Swiper, React Toastify, React Hook Form, Axios, Date Fns, React Day Picker, Node Js, Express Js, MVC patttern, MongoDB, Mongoose, Dote Env*
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
